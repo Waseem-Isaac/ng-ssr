@@ -1,0 +1,2 @@
+/about
+/post/1

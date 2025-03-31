@@ -1,0 +1,9 @@
+<div class="content">
+    @if (post | async; as post) {
+        <div class="post">
+            <h1>{{post.id}}</h1>
+            <div class="title"> {{post.title}}</div>
+            <div class="body"> {{post.body}}</div>
+        </div>
+    }
+</div>

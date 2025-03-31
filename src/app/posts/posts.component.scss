@@ -1,0 +1,13 @@
+:host{
+    .posts {
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        grid-template-columns: repeat(auto-fill, 200px);
+        .post{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

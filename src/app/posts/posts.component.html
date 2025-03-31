@@ -1,0 +1,8 @@
+<div class="posts">
+    @for (post of (posts | async); track post.id; let first = $first) {
+        <a [routerLink]="['/post', post.id]" class="post">
+        <h1>{{post.id}} @if (first) {(SSG)}  </h1>
+        <div class="title"> {{post.title}}</div>
+      </a>
+    }
+</div>

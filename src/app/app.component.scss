@@ -1,0 +1,17 @@
+header {
+  background: black;
+  color: white;
+  list-style: none;
+  padding: 1rem;
+  nav {
+      display: flex;
+      gap: 1rem;
+      a {
+        text-decoration: none;
+        color: white;
+        &.active {
+          color: wheat;
+        }
+      }
+  }      
+}

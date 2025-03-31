@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body  {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+    box-sizing: border-box;
+    margin: 0 ;
+}
+
+.post{
+    background: wheat;
+    padding: 1rem;
+     box-shadow: inset 0px 1px 4px 0px #888888;;
+    .title {
+        font-size: .9rem;
+    }      
+    .body {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }   
+}
